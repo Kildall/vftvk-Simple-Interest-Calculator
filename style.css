@@ -1,4 +1,65 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color:gray;
+}
+
+label{
+    padding-right: 50px;
+    width: 100px;
+    color: black;
+}
+
+.row {
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding-bottom: 5px;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.resultsContainer {
+    display: none;
+    margin: 0 auto;
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+.result {
+    background-color: #FFFF00;
+}
+
+.inputs {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.porcentage {
+    padding-left: 10px;
+}
+
+.slidercontainer {
+    width: 130px;
+    display: inline-block;
+}
+
+.slider {
+    width: 100%;
+}
 
 
